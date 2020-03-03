@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: black;
+  font-family: "Raleway";
+  color: white;
+}
+
+p {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 31.25px;
+}
+
+h1 {
+  font-size: 39.06px;
+}
+
+#navbar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #0E0E0E;
+  border: solid 3px black;
+  width: 1520px;
+  height: 70px;
+}
+#navbar .navButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.2px solid rgba(75, 75, 75, 0.5);
+  width: 180px;
+  height: 62px;
+  background-color: #0E0E0E;
+  color: white;
+  cursor: pointer;
+}
+#navbar #discordHeader {
+  display: flex;
+  width: 307px;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+#navbar #discordHeader p {
+  margin-top: 5px;
+  color: #618DA6;
+}
+#navbar #discordHeader button {
+  width: 170px;
+  height: 30px;
+  border-radius: 40px;
+  border: 2px solid black;
+  background-color: #1b1b1b;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#navbar #discordHeader button:focus {
+  outline: 0;
+}
+#navbar #discordHeader button:active {
+  transform: translateY(1px);
+}
+#navbar #discordHeader a:hover #discordButton {
+  background-color: #2b2b2b;
+}
+#navbar #acherusTitle {
+  padding: 0px 50px 0px 0px;
+}
+
+#main {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+#main #contentFrame {
+  width: 1520px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  background-color: #1B1B1B;
+  text-align: center;
+  border: 3px solid black;
+}
+#main #contentFrame #homeContent {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+#main #contentFrame #homeContent img {
+  margin-top: 30px;
+}
+#main #contentFrame #homeContent h1 {
+  color: #C41F3B;
+  padding: 20px 0px 0px 0px;
+}
+#main #contentFrame #homeContent p {
+  width: 1045px;
+  padding: 20px 0px 20px 0px;
+}
+#main #contentFrame #homeContent a {
+  text-decoration: none;
+  color: #618DA6;
+}
+
+/*# sourceMappingURL=/style.e0c02e61.css.map */
