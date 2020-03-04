@@ -5,23 +5,29 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Acherus, The Ebon Hold</title>
    <link type="text/css" rel="stylesheet" href="/style.e0c02e61.css">
-
    <link href="https://fonts.googleapis.com/css?family=Metal+Mania|Raleway:400,500,600,800&display=swap" rel="stylesheet">
-<script src="/style.e0c02e61.js"></script></head>
+</head>
 <body>
    <!--Navigation-->
-   <div id="main">
+   <div class="main" id="homeMain">
       <div id="navbar">
          <img src="/death-knight-icon.76579dcd.svg" alt="death knight logo" id="dkLogo">
          <img src="/Acherus-Title.39351bef.svg" alt="Acherus title text" id="acherusTitle">
-         <a href="/index.html" '=""><button type="button" class="navButton"><h4>Home</h4></button></a>           <!--TODO Fix Buttons!-->
-         <a href="/unholyGuide.html"><button type="button" class="navButton"><h4>Guides</h4></button></a>    <!--TODO Fix Buttons!-->
-         <a href="/resources.html"><button type="button" class="navButton"><h4>Resources</h4></button></a>   <!--TODO Fix Buttons!-->
-         <a href="/about.html"><button type="button" class="navButton"><h4>About</h4></button></a>           <!--TODO Fix Buttons!-->
+         <a href="/index.html"><h4 class="navButton">Home</h4></a> 
+         <div id="guidesDropdown">
+            <h4 class="navButton">Guides</h4>
+            <div class="dropdownContent">
+               <a href="#">Blood Guide</a>
+               <a href="#">Frost Guide</a>
+               <a href="/unholyGuide.html">Unholy Guide</a>
+            </div>
+         </div>
+         <a href="/resources.html"><h4 class="navButton">Resources</h4></a>
+         <a href="/about.html"><h4 class="navButton">About</h4></a>
          <div id="discordHeader">
-            <a href="https://discord.gg/acherus" target="_blank"><button type="button" id="discordButton">Discord</button></a>
-            <p>Join the community!
-         </p></div>
+            <a href="https://discord.gg/acherus" target="_blank" id="discordButton"><p>Discord</p></a>
+            <p>Join the community!</p>
+         </div>
       </div>
 
    <!--Content-->
@@ -29,7 +35,7 @@
          <div id="homeContent">
             <img src="/acherus-banner-img.21f68291.jpg" alt="banner image" id="bannerImg">
             <h1>Welcome to Acherus!</h1>
-            <p>On this website you will find all the information that you will need to tackle the hardest content that World of Warcraft has to offer. Guide’s for all talent specializations. Information courtesy of the great minds of the Death Knight Community. <span id="joinHereButton"><a href="https://discord.gg/acherus" target="_blank">Join Here!</a></span></p><!--TODO Fix Buttons!-->
+            <p>On this website you will find all the information that you will need to tackle the hardest content that World of Warcraft has to offer. Guide’s for all talent specializations. Information courtesy of the great minds of the Death Knight Community. <span id="joinHereButton"><a href="https://discord.gg/acherus" target="_blank">Join Here!</a></span></p>
          </div>
       </div>
    </div>

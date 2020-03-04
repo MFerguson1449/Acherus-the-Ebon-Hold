@@ -10,16 +10,26 @@
 </head>
 <body>
    <!--Navigation-->
-   <div id="main">
+   <div class="main">
       <div id="navbar">
          <img src="/death-knight-icon.76579dcd.svg" alt="death knight logo" id="dkLogo">
          <img src="/Acherus-Title.39351bef.svg" alt="Acherus title text" id="acherusTitle">
-         <a href="/index.html" '=""><button type="button" class="navButton"><h4>Home</h4></button></a>
-         <a href="/unholyGuide.html"><button type="button" class="navButton"><h4>Guides</h4></button></a>
-         <a href="/resources.html"><button type="button" class="navButton"><h4>Resources</h4></button></a>
-         <a href="/about.html"><button type="button" class="navButton"><h4>About</h4></button></a>
+         <a href="/index.html" '=""><h4 class="navButton">Home</h4></a> 
+         <div id="guidesDropdown">
+            <h4 class="navButton">Guides</h4>
+            <div class="dropdownContent">
+               <a href="#">Blood Guide</a>
+               <a href="#">Frost Guide</a>
+               <a href="/unholyGuide.html">Unholy Guide</a>
+            </div>
+         </div>
+         <a href="/resources.html"><h4 class="navButton">Resources</h4></a>
+         <a href="/about.html"><h4 class="navButton">About</h4></a>
          <div id="discordHeader">
-            <a href="https://discord.gg/acherus" target="_blank"><button type="button" id="discordButton">Discord</button></a>
-            <p>Join the community!
-         </p></div>
-      </div></div></body></html>
+            <a href="https://discord.gg/acherus" target="_blank" id="discordButton"><p>Discord</p></a>
+            <p>Join the community!</p>
+         </div>
+      </div>
+   </div>
+</body>
+</html>

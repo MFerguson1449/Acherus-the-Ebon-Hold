@@ -14,7 +14,7 @@ html {
    color: white;
 }
 p {
-   font-size: 16px;
+   font-size: 12.8px;
 }
 h4 {
    font-size: 20px;
@@ -28,9 +28,13 @@ h2 {
 h1 {
    font-size: 39.06px;
 }
-
-// !Nav //
+.wowTooltip {
+   color: $dkRed;
+   text-decoration: none;
+}
+// Nav //
 #navbar {
+   position: fixed;
    display: flex; 
    flex-flow: row nowrap;
    justify-content: flex-end;
@@ -39,6 +43,9 @@ h1 {
    border: solid 3px black;
    width: 1520px;
    height: 70px;
+   -webkit-user-select: none;  /* Chrome all / Safari all */
+   -moz-user-select: none;     /* Firefox all */
+   -ms-user-select: none;      /* IE 10+ */
    .navButton {
       display: flex;
       align-items: center;
@@ -49,7 +56,34 @@ h1 {
       background-color: #0E0E0E;
       color: white;
       cursor: pointer;
+      font-weight: 600;
    }
+   .navButton:hover {
+      background-color: rgba(30, 30, 30, .50);
+   }
+   // *Drop Down* //
+   .dropdownContent {
+      display: none;
+      position: absolute;
+      background: #1E1E1E;
+      font-family: $fontMain;
+      font-weight: 600;
+   }
+   .dropdownContent a {
+      color: white;
+      display: block;
+      padding: 15px 16px;
+      text-align: center;
+      min-width: 180px;
+      border: 1px solid black;
+   }
+   .dropdownContent a:hover {
+      background-color: #2E2E2E;
+   }
+   #guidesDropdown:hover .dropdownContent {
+      display: block;
+   }
+   // *Drop Down End* //
    #discordHeader {
       display: flex;
       width: 307px;
@@ -59,66 +93,108 @@ h1 {
       p {
          margin-top: 5px;
          color: $accentBlue;
+         font-size: 16px;
+         font-weight: 600;
       }
-      button {
+      #discordButton {
          width: 170px;
          height: 30px;
          border-radius: 40px;
-         border: 2px solid black;
+         border: px solid black;
          background-color: #1b1b1b;
-         color: white;
-         font-size: 16px;
-         font-weight: 600;
+         text-align: center;
          cursor: pointer;
       }
-      button:focus {
-         outline:0;
+      #discordButton p {
+         color: white;
       }
-      button:active {
-         transform: translateY(1px);
-      }
-      a:hover #discordButton{
+      #discordButton:hover {
          background-color: #2b2b2b;
       }
    }
    #acherusTitle {
       padding: 0px 50px 0px 0px;
    }
+   a {
+      text-decoration: none;
+   }
 }
 
-// Content //
-#main {
+/// Content ///
+// !Global! //
+.main {
    width: 100%;
    display: flex;
    flex-flow: column nowrap;
+   border: 3px solid black;
    align-items: center;
-   #contentFrame {
+   letter-spacing: 0.01%;
+   .contentFrame {
       width: 1520px;
       display: flex;
       flex-flow: column nowrap;
       align-items: center;
       background-color: $backdrop;
       text-align: center;
-      border: 3px solid black;
-      #homeContent {
-         display: flex;
-         flex-flow: column nowrap;
-         align-items: center;
-         img {
-            margin-top: 30px;
-         }
-         h1 {
-            color: $dkRed;
-            padding: 20px 0px 0px 0px;
-         }
-         p {
-            width: 1045px;
-            padding: 20px 0px 20px 0px;
-         }
-         a {
-            text-decoration: none;
-            color: $accentBlue;
-         }
-      }
+   }
+}
+
+// !Homepage! //
+#homeMain #homeContent {
+   display: flex;
+   flex-flow: column nowrap;
+   align-items: center;
+   img {
+      margin-top: 30px;
+   }
+   h1 {
+      color: $dkRed;
+      padding: 20px 0px 0px 0px;
+   }
+   p {
+      width: 1045px;
+      padding: 20px 0px 20px 0px;
+      font-size: 16px;
+   }
+   a {
+      text-decoration: none;
+      color: $accentBlue;
+      font-weight: 600;
+      font-size: 17px;
+   }
+}
+
+// !Unholy Guide! //
+#unhGuideContent {
+   text-align: left;
+   padding: 15% 10% 0% 10%;
+   h1 {
+      padding-bottom: 20px;
+   }
+   h2 {
+      padding-bottom: 20px;
+   }
+   h3 {
+      margin-left: 4%;
+   }
+   p {
+      margin-left: 2%;
+      padding-bottom: 20px;
+      font-weight: 600;
+   }
+   li {
+      list-style: none;
+      margin-left: 5%;
+      line-height: 34px;
+      font-size: 12.8px;
+   }
+   .strTick {
+      color: #00FF19;
+   }
+   .weakTick {
+      color: #FF0000;
+   }
+   #unhTalents {
+      
    }
 }
