@@ -37,6 +37,7 @@ h1 {
 }
 
 #navbar {
+  z-index: 1;
   position: fixed;
   display: flex;
   flex-flow: row nowrap;
@@ -140,6 +141,13 @@ h1 {
   background-color: #1B1B1B;
   text-align: center;
 }
+.main .contentFrame .guideNav {
+  position: fixed;
+  left: 70%;
+}
+.main .contentFrame .guideNav .guideNavItem {
+  line-height: 19px;
+}
 
 #homeMain #homeContent {
   display: flex;
@@ -166,8 +174,11 @@ h1 {
 }
 
 #unhGuideContent {
+  position: relative;
+  right: 13%;
   text-align: left;
   padding: 15% 10% 0% 10%;
+  z-index: 0;
 }
 #unhGuideContent h1 {
   padding-bottom: 20px;
@@ -182,6 +193,7 @@ h1 {
   margin-left: 2%;
   padding-bottom: 20px;
   font-weight: 600;
+  width: 850px;
 }
 #unhGuideContent li {
   list-style: none;
@@ -194,6 +206,49 @@ h1 {
 }
 #unhGuideContent .weakTick {
   color: #FF0000;
+}
+#unhGuideContent #unhTalents {
+  margin-top: 20px;
+}
+#unhGuideContent #talentChart {
+  margin-top: 10px;
+  margin-left: 2%;
+  margin-bottom: 10px;
+  display: grid;
+  width: 750px;
+  grid-template-rows: repeat(3, 170px);
+  font-weight: 700;
+}
+#unhGuideContent #talentChart .talentChartRow {
+  border: 0.4px solid #9F9F9F;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 300px 80px 250px;
+  line-height: 19px;
+  align-items: center;
+}
+#unhGuideContent #talentChart .talentChartRow .talentTiers {
+  text-align: right;
+}
+#unhGuideContent #talentChart .talentChartRow .talentNames {
+  color: #C41F3B;
+}
+#unhGuideContent #talentChart .talentChartRow li {
+  line-height: 19px;
+  font-size: 12.8px;
+}
+#unhGuideContent #talentChart .talentChartRow h4 {
+  text-align: center;
+  font-size: 14px;
+}
+#unhGuideContent #talentChart .talentChartRow a {
+  padding-left: 3px;
+}
+#unhGuideContent #talentChart #soloContent, #unhGuideContent #talentChart #raidContent {
+  background-color: #161616;
+}
+#unhGuideContent #talentChart #cleaveContent {
+  background-color: #222222;
 }
 
 /*# sourceMappingURL=/style.e0c02e61.css.map */

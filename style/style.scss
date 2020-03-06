@@ -34,6 +34,7 @@ h1 {
 }
 // Nav //
 #navbar {
+   z-index: 1;
    position: fixed;
    display: flex; 
    flex-flow: row nowrap;
@@ -136,6 +137,14 @@ h1 {
       align-items: center;
       background-color: $backdrop;
       text-align: center;
+         // ***Guide Nav*** //
+         .guideNav {
+            position: fixed;
+            left: 70%;
+            .guideNavItem {
+               line-height: 19px;
+            }
+         }
    }
 }
 
@@ -166,8 +175,11 @@ h1 {
 
 // !Unholy Guide! //
 #unhGuideContent {
+   position: relative;
+   right: 13%;
    text-align: left;
    padding: 15% 10% 0% 10%;
+   z-index: 0;
    h1 {
       padding-bottom: 20px;
    }
@@ -181,6 +193,7 @@ h1 {
       margin-left: 2%;
       padding-bottom: 20px;
       font-weight: 600;
+      width: 850px;
    }
    li {
       list-style: none;
@@ -195,6 +208,48 @@ h1 {
       color: #FF0000;
    }
    #unhTalents {
-      
+      margin-top: 20px;
+   }
+   // ***Talent Box*** //
+   #talentChart {
+      margin-top: 10px;
+      margin-left: 2%;
+      margin-bottom: 10px;
+      display: grid;
+      width: 750px;
+      grid-template-rows: repeat(3, 170px);
+      font-weight: 700;
+      .talentChartRow {
+         border: 0.4px solid #9F9F9F;
+         display: grid;
+         grid-auto-flow: row;
+         grid-template-columns: 300px 80px 250px;
+         line-height: 19px;
+         align-items: center;
+         .talentTiers {
+            text-align: right;
+         }
+         .talentNames {
+            color: $dkRed;
+         }
+         li {
+            line-height: 19px;
+            font-size: 12.8px;
+         }
+         h4 {
+            text-align: center;
+            font-size: 14px;
+         }
+         a {
+            padding-left: 3px;
+         }
+ 
+      }        
+      #soloContent, #raidContent {
+         background-color: #161616;
+      }
+      #cleaveContent {
+         background-color: #222222;
+      }
    }
 }
