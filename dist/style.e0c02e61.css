@@ -143,10 +143,19 @@ h1 {
 }
 .main .contentFrame .guideNav {
   position: fixed;
-  left: 70%;
+  left: 74%;
+  width: 220px;
+  border-left: 3px solid #618DA6;
+  padding-left: 10px;
 }
-.main .contentFrame .guideNav .guideNavItem {
-  line-height: 19px;
+.main .contentFrame .guideNav li {
+  line-height: 25px !important;
+  font-weight: 900;
+}
+.main .contentFrame .guideNav a {
+  text-decoration: none;
+  color: white;
+  padding-left: 3px;
 }
 
 #homeMain #homeContent {
@@ -194,6 +203,7 @@ h1 {
   padding-bottom: 20px;
   font-weight: 600;
   width: 850px;
+  line-height: 25px;
 }
 #unhGuideContent li {
   list-style: none;
@@ -213,7 +223,7 @@ h1 {
 #unhGuideContent #talentChart {
   margin-top: 10px;
   margin-left: 2%;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   display: grid;
   width: 750px;
   grid-template-rows: repeat(3, 170px);

@@ -137,14 +137,24 @@ h1 {
       align-items: center;
       background-color: $backdrop;
       text-align: center;
-         // ***Guide Nav*** //
-         .guideNav {
-            position: fixed;
-            left: 70%;
-            .guideNavItem {
-               line-height: 19px;
-            }
+      // ***Guide Nav*** //
+      .guideNav {
+         position: fixed;
+         left: 74%;
+         width: 220px;
+         border-left: 3px solid $accentBlue;
+         padding-left: 10px;
+         li {
+            line-height: 25px !important;
+            font-weight: 900;
          }
+         a {
+            text-decoration: none;
+            color: white;
+            padding-left: 3px;
+
+         }
+      }
    }
 }
 
@@ -194,6 +204,7 @@ h1 {
       padding-bottom: 20px;
       font-weight: 600;
       width: 850px;
+      line-height: 25px;
    }
    li {
       list-style: none;
@@ -214,7 +225,7 @@ h1 {
    #talentChart {
       margin-top: 10px;
       margin-left: 2%;
-      margin-bottom: 10px;
+      margin-bottom: 30px;
       display: grid;
       width: 750px;
       grid-template-rows: repeat(3, 170px);
