@@ -220,6 +220,14 @@ h1 {
 #unhGuideContent #unhTalents {
   margin-top: 20px;
 }
+#unhGuideContent #unhTalents .unhTalentTierImg {
+  padding-bottom: 10px;
+  margin-left: 1.2%;
+  width: 90%;
+}
+#unhGuideContent #unhTalents .unhTalentTierDesc {
+  margin-bottom: 4%;
+}
 #unhGuideContent #talentChart {
   margin-top: 10px;
   margin-left: 2%;
