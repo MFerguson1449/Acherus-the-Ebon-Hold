@@ -31,11 +31,13 @@ h1 {
 .wowTooltip {
    color: $dkRed;
    text-decoration: none;
+
 }
-// Nav //
+// !Nav! //
 #navbar {
    z-index: 1;
-   position: fixed;
+   position: sticky;
+   top: 0;
    display: flex; 
    flex-flow: row nowrap;
    justify-content: flex-end;
@@ -101,7 +103,7 @@ h1 {
          width: 170px;
          height: 30px;
          border-radius: 40px;
-         border: px solid black;
+         border: 3px solid black;
          background-color: #1b1b1b;
          text-align: center;
          cursor: pointer;
@@ -137,6 +139,7 @@ h1 {
       align-items: center;
       background-color: $backdrop;
       text-align: center;
+      border: 3px solid black;
       // ***Guide Nav*** //
       .guideNav {
          position: fixed;
@@ -163,8 +166,11 @@ h1 {
    display: flex;
    flex-flow: column nowrap;
    align-items: center;
+   background-color: $backdrop;
+   text-align: center;
    img {
-      margin-top: 30px;
+      border-top: 3px solid black;
+      border-bottom: 3px solid black;
    }
    h1 {
       color: $dkRed;
