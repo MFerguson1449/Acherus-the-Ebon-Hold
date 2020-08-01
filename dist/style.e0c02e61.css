@@ -145,7 +145,7 @@ h1 {
 }
 .main .contentFrame .guideNav {
   position: fixed;
-  left: 74%;
+  left: 70%;
   width: 220px;
   border-left: 3px solid #618DA6;
   padding-left: 10px;
@@ -158,6 +158,38 @@ h1 {
   text-decoration: none;
   color: white;
   padding-left: 3px;
+}
+
+.guideNavBoxes {
+  display: grid;
+  grid-auto-flow: column;
+  background-color: #121212;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 60px;
+  width: 100%;
+}
+.guideNavBoxes .guideBox {
+  position: relative;
+}
+.guideNavBoxes .guideBox img {
+  border: 3px solid black;
+}
+.guideNavBoxes .guideBox h1 {
+  pointer-events: none;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
+}
+.guideNavBoxes #bloodBox h1 {
+  color: #FF4700 !important;
+}
+.guideNavBoxes #frostBox h1 {
+  color: #67BCFF !important;
+}
+.guideNavBoxes #unholyBox h1 {
+  color: #40BC40 !important;
 }
 
 #homeMain #homeContent {
