@@ -219,53 +219,53 @@ h1 {
   font-size: 17px;
 }
 
-#unhGuideContent {
+#guideContent {
   position: relative;
   right: 13%;
   text-align: left;
   padding: 15% 10% 0% 10%;
   z-index: 0;
 }
-#unhGuideContent h1 {
+#guideContent h1 {
   padding-bottom: 20px;
 }
-#unhGuideContent h2 {
+#guideContent h2 {
   padding-bottom: 20px;
 }
-#unhGuideContent h3 {
+#guideContent h3 {
   margin-left: 4%;
 }
-#unhGuideContent p {
+#guideContent p {
   margin-left: 2%;
   padding-bottom: 20px;
   font-weight: 600;
   width: 850px;
   line-height: 25px;
 }
-#unhGuideContent li {
+#guideContent li {
   list-style: none;
   margin-left: 5%;
   line-height: 34px;
   font-size: 12.8px;
 }
-#unhGuideContent .strTick {
+#guideContent .strTick {
   color: #00FF19;
 }
-#unhGuideContent .weakTick {
+#guideContent .weakTick {
   color: #FF0000;
 }
-#unhGuideContent #unhTalents {
+#guideContent #unhTalents {
   margin-top: 20px;
 }
-#unhGuideContent #unhTalents .unhTalentTierImg {
+#guideContent #unhTalents .unhTalentTierImg {
   padding-bottom: 10px;
   margin-left: 1.2%;
   width: 90%;
 }
-#unhGuideContent #unhTalents .unhTalentTierDesc {
+#guideContent #unhTalents .unhTalentTierDesc {
   margin-bottom: 4%;
 }
-#unhGuideContent #talentChart {
+#guideContent #talentChart {
   margin-top: 10px;
   margin-left: 2%;
   margin-bottom: 30px;
@@ -274,7 +274,7 @@ h1 {
   grid-template-rows: repeat(3, 170px);
   font-weight: 700;
 }
-#unhGuideContent #talentChart .talentChartRow {
+#guideContent #talentChart .talentChartRow {
   border: 0.4px solid #9F9F9F;
   display: grid;
   grid-auto-flow: row;
@@ -282,27 +282,27 @@ h1 {
   line-height: 19px;
   align-items: center;
 }
-#unhGuideContent #talentChart .talentChartRow .talentTiers {
+#guideContent #talentChart .talentChartRow .talentTiers {
   text-align: right;
 }
-#unhGuideContent #talentChart .talentChartRow .talentNames {
+#guideContent #talentChart .talentChartRow .talentNames {
   color: #C41F3B;
 }
-#unhGuideContent #talentChart .talentChartRow li {
+#guideContent #talentChart .talentChartRow li {
   line-height: 19px;
   font-size: 12.8px;
 }
-#unhGuideContent #talentChart .talentChartRow h4 {
+#guideContent #talentChart .talentChartRow h4 {
   text-align: center;
   font-size: 14px;
 }
-#unhGuideContent #talentChart .talentChartRow a {
+#guideContent #talentChart .talentChartRow a {
   padding-left: 3px;
 }
-#unhGuideContent #talentChart #soloContent, #unhGuideContent #talentChart #raidContent {
+#guideContent #talentChart #soloContent, #guideContent #talentChart #raidContent {
   background-color: #161616;
 }
-#unhGuideContent #talentChart #cleaveContent {
+#guideContent #talentChart #cleaveContent {
   background-color: #222222;
 }
 
