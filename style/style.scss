@@ -252,7 +252,7 @@ h1 {
    }
    li {
       list-style: none;
-      margin-left: 5%;
+      margin-left: 7%;
       line-height: 34px;
       font-size: 12.8px;
    }
@@ -262,14 +262,14 @@ h1 {
    .weakTick {
       color: #FF0000;
    }
-   #unhTalents {
+   #talents {
       margin-top: 20px;
-      .unhTalentTierImg {
+      .talentTierImg {
          padding-bottom: 10px;
          margin-left: 1.2%;
          width: 90%;
       }
-      .unhTalentTierDesc {
+      .talentTierDesc {
          margin-bottom: 4%;
       }
    }
@@ -308,10 +308,10 @@ h1 {
          }
  
       }        
-      #soloContent, #raidContent {
+      #bosST, #oblitST {
          background-color: #161616;
       }
-      #cleaveContent, #oblitCleave {
+      #bosCleave, #oblitCleave {
          background-color: #222222;
       }
    }

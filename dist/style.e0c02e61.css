@@ -244,7 +244,7 @@ h1 {
 }
 #guideContent li {
   list-style: none;
-  margin-left: 5%;
+  margin-left: 7%;
   line-height: 34px;
   font-size: 12.8px;
 }
@@ -254,15 +254,15 @@ h1 {
 #guideContent .weakTick {
   color: #FF0000;
 }
-#guideContent #unhTalents {
+#guideContent #talents {
   margin-top: 20px;
 }
-#guideContent #unhTalents .unhTalentTierImg {
+#guideContent #talents .talentTierImg {
   padding-bottom: 10px;
   margin-left: 1.2%;
   width: 90%;
 }
-#guideContent #unhTalents .unhTalentTierDesc {
+#guideContent #talents .talentTierDesc {
   margin-bottom: 4%;
 }
 #guideContent #talentChart {
@@ -299,10 +299,10 @@ h1 {
 #guideContent #talentChart .talentChartRow a {
   padding-left: 3px;
 }
-#guideContent #talentChart #soloContent, #guideContent #talentChart #raidContent {
+#guideContent #talentChart #bosST, #guideContent #talentChart #oblitST {
   background-color: #161616;
 }
-#guideContent #talentChart #cleaveContent, #guideContent #talentChart #oblitCleave {
+#guideContent #talentChart #bosCleave, #guideContent #talentChart #oblitCleave {
   background-color: #222222;
 }
 
